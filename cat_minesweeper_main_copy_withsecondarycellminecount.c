@@ -1,21 +1,18 @@
-//////////////////////////////////////////////////////////
-//														//
-//			Welcome to Cat's minesweeper code.			//
-//				By: Catherine Fait 1403142				//
-//					For: Metropolia UAS 				//
-//				C programming w/ Sami Saino	?			//
-//						Spring 2016						//
-//														//
-// ^,^	 ^,^	 ^,^	 ^,^	 ^,^	 ^,^	 ^,^	//
-//														//		
-//				So what's this code about?				//	
+//////////////////////////////////////////////////////////////////
+//								//
+//		Welcome to Cat's minesweeper code.		//
+//								//
+//								//
+//	 ^,^	 ^,^	 ^,^	 ^,^	 ^,^	 ^,^	 ^,^	//
+//								//		
+//				So what's this code about?	//	
 //	Glad you asked. This code creates two 2D arrays, 	//
 //	one to hold the locations of the mines, and one to 	//
 //	display the board to the user. The heart of this 	//
-//	program is a function which uses an 2 algorithms to //
+//	program is a function which uses an 2 algorithms to	//
 //	check cells until mines are found. When mines are	//
 //	found around a cell, the checked cell will display 	//
-//	to the user how many mines are around it. Game-play //
+//	to the user how many mines are around it. Game-play 	//
 // 	levels are directly perportional to size of the 	//
 //	"minefield". User selects a cell by entering the 	//
 //	corresponding row and column number. They are able 	//
@@ -23,9 +20,9 @@
 //	is opened, the game is over, and the board is 		//
 //	revealed and score is revealed (number of correctly	//
 //	flagged mines)? The user is then promped to play 	//
-//				again. ^,^								//
-//														//
-//////////////////////////////////////////////////////////
+//				again. ^,^			//
+//								//
+//////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
 #include <stdlib.h>  
@@ -59,11 +56,11 @@ void minefieldon(int size);
 void revealboard();
 
 
-//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //														//
-//					 		Main 						//
+//					 		Main 							//
 //														//
-//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
